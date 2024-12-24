@@ -1,23 +1,19 @@
-/* General Reset */
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: #000 solid; */
 }
 
-/* Aseguramos que ocupen todo el viewport */
 html, body {
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center; /* Opcional, para centrar texto */
+    text-align: center;
 }
 
-/* Estilo del hr */
 hr {
     border: none;
     height: 2px;
@@ -25,10 +21,9 @@ hr {
     margin: 2rem 0;
 }
 
-/* Encabezados */
 h1 {
     font-size: 5rem;
-    margin-bottom: 2rem; /* Espacio extra bajo el título */
+    margin-bottom: 2rem;
 }
 
 h2 {
@@ -36,7 +31,6 @@ h2 {
     margin: 1.5rem 0;
 }
 
-/* Lista de opciones */
 ul {
     list-style: none;
     padding: 0;
@@ -55,33 +49,30 @@ a {
 }
 
 a:hover {
-    color: #007BFF; /* Cambiar color al pasar el ratón */
+    color: #007BFF;
 }
 
-/* Estilo general para el formulario */
 form {
     display: flex;
-    flex-direction: column; /* Apila los elementos verticalmente */
-    align-items: center; /* Centra horizontalmente los elementos */
-    gap: 1.5rem; /* Espaciado entre los elementos */
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
     padding: 2rem;
-    border: 2px solid #87cfcf; /* Borde del formulario */
-    border-radius: 10px; /* Esquinas redondeadas */
-    background-color: #f5f5f5; /* Fondo claro */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+    border: 2px solid #87cfcf;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Estilo para las etiquetas */
 form label {
     font-size: 1.5rem;
     font-weight: bold;
     color: #333;
 }
 
-/* Estilo para los campos de entrada */
 form input[type="text"], 
 form select {
-    width: 80%; /* Ajusta al ancho del formulario */
+    width: 80%;
     padding: 0.8rem;
     font-size: 1.2rem;
     border: 1px solid #ccc;
@@ -95,7 +86,6 @@ form select:focus {
     border-color: #87cfcf;
 }
 
-/* Estilo para el botón */
 form button {
     padding: 0.8rem 2rem;
     font-size: 1.5rem;
@@ -112,7 +102,6 @@ form button:hover {
     background-color: #66b5b5;
 }
 
-/* Resultado del formulario */
 .result {
     font-size: 1.5rem;
     font-style: italic;
