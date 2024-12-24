@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONVERSOR IP</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <div class="all-container">
+        <h2>CONVERSOR</h2>
+
+
+
+        <form id="conversionForm">
+            <label for="inputValue">Valor:</label>
+            <input type="text" id="inputValue" required>
+            <button type="submit">Convertir</button>
+            <br><br>
+
+            <label for="conversionType">Tipo de conversión:</label>
+            <select id="conversionType" required>
+                <option value="binToDec">Binario a Decimal</option>
+                <option value="decToBin">Decimal a Binario</option>
+            </select>
+        </form>
+        <br><br><br>
+        <h2>RESULTADO</h2>
+
+        <hr><br>
+
+        <p id="result" class="result"></p>
+    </div>
+
+
+    <script src="../js/conversor.js"></script>
+</body>
+
+</html>
